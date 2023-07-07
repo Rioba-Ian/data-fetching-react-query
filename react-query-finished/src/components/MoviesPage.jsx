@@ -9,13 +9,14 @@ export default function MoviesPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/movieszzz")
+      .get("http://localhost:4000/movies")
       .then((res) => {
         setData(res.data);
         setIsLoading(false);
       })
       .catch((error) => {
         setError(error.message);
+        setIsLoading(false);
         console.log(error.message);
       });
   }, []);

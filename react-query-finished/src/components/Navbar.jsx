@@ -15,6 +15,9 @@ export default function Navbar() {
           <li>
             <Link to="/rq-movies">RQ movies</Link>
           </li>
+          <li>
+            <Link to="/rq-paginated">RQ Paginated</Link>
+          </li>
         </ul>
       </div>
     </nav>

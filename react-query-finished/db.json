@@ -15,5 +15,47 @@
             "name": "Django Unchained",
             "producer": "Quentin Tarantino"
         }
+    ],
+    "series": [
+        {
+            "id": 1,
+            "name": "friends"
+        },
+        {
+            "id": 2,
+            "name": "friends 2"
+        },
+        {
+            "id": 3,
+            "name": "friends 3"
+        },
+        {
+            "id": 4,
+            "name": "friends 4"
+        },
+        {
+            "id": 5,
+            "name": "friends 5"
+        },
+        {
+            "id": 6,
+            "name": "friends 6"
+        },
+        {
+            "id": 7,
+            "name": "friends 7"
+        },
+        {
+            "id": 8,
+            "name": "friends 8"
+        },
+        {
+            "id": 9,
+            "name": "friends 9"
+        },
+        {
+            "id": 10,
+            "name": "friends 10"
+        }
     ]
 }
