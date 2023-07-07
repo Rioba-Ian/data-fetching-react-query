@@ -9,7 +9,7 @@ export default function MoviesPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/movies")
+      .get("http://localhost:4000/movieszzz")
       .then((res) => {
         setData(res.data);
         setIsLoading(false);
